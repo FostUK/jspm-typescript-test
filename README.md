@@ -27,3 +27,13 @@ Navigate to [http://localhost:8080](http://localhost:93) (Port can be changed in
 
 JS and Typescript files can b found in /lib.
 Check the in browser console log for success confirmation.
+
+## Notes
+
+Importing Typescript has to be done by forcing the extension type e.g:
+
+```javascript
+import testString from "/lib/testString.ts!typescript"
+```
+I think this might be fixed in the latest beta / with a config change.
+
